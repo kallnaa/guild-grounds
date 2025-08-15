@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#logo{
+    background-image: linear-gradient(to right, #00fff7,#ce14c1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    margin: 40px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#navbar{
+     background-color: hsl(225, 15%, 8%);
+     height: 75px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     }
+ #nav-links {
+      margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding-right:50px;
+    align-items: center;
+    margin: 0;
+}
+#nav-links li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Inter', serif;
+    text-align: center;
+}
+input{
+    margin-right:20px;
+    width: 200px ;
+    height: 40px;
+    border-radius: 15px;
+    border:hsl(220, 15%, 20%);
+    text-decoration: none;
+    padding-left:20px;
+    background-color: hsl(225, 14%, 17%) ;
+    color:white;
+}
+.bi-search{
+    color:white;
+    font-size:15px;
+}
